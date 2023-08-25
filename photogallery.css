@@ -1,0 +1,26 @@
+#name{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+section img{
+    width: 400px;
+    height: 280px;
+    padding: 15px;
+    border: 3px solid lightcoral;
+    border-radius: 15px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor : pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+section img:hover {
+    transform: scale(1.03);
+}
